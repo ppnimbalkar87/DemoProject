@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46644" started-at="2021-01-04T06:14:28Z" finished-at="2021-01-04T06:15:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46644" started-at="2021-01-04T06:14:28Z" finished-at="2021-01-04T06:15:15Z">
+      <class name="com.demosite.testcases.LoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="setUpSuite" is-config="true" duration-ms="514" started-at="2021-01-04T11:44:28Z" finished-at="2021-01-04T11:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="setUp" is-config="true" duration-ms="12643" started-at="2021-01-04T11:44:28Z" finished-at="2021-01-04T11:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToDemosite(java.lang.String, java.lang.String)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="loginToDemosite" duration-ms="5753" started-at="2021-01-04T11:44:41Z" data-provider="DataInput" finished-at="2021-01-04T11:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDemosite -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="teardownMethod" is-config="true" duration-ms="435" started-at="2021-01-04T11:44:47Z" finished-at="2021-01-04T11:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToDemosite status=SUCCESS method=LoginTest.loginToDemosite(java.lang.String, java.lang.String)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="loginToDemosite(java.lang.String, java.lang.String)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="loginToDemosite" duration-ms="6200" started-at="2021-01-04T11:44:47Z" data-provider="DataInput" finished-at="2021-01-04T11:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr300880]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDemosite -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="teardownMethod" is-config="true" duration-ms="97" started-at="2021-01-04T11:44:53Z" finished-at="2021-01-04T11:44:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToDemosite status=SUCCESS method=LoginTest.loginToDemosite(java.lang.String, java.lang.String)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="loginToDemosite(java.lang.String, java.lang.String)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="loginToDemosite" duration-ms="6784" started-at="2021-01-04T11:44:54Z" data-provider="DataInput" finished-at="2021-01-04T11:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yquzupE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDemosite -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="teardownMethod" is-config="true" duration-ms="103" started-at="2021-01-04T11:45:00Z" finished-at="2021-01-04T11:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToDemosite status=SUCCESS method=LoginTest.loginToDemosite(java.lang.String, java.lang.String)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="loginToDemosite(java.lang.String, java.lang.String)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="loginToDemosite" duration-ms="9436" started-at="2021-01-04T11:45:00Z" data-provider="DataInput" finished-at="2021-01-04T11:45:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr300880]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yquzupE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToDemosite -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="teardownMethod" is-config="true" duration-ms="297" started-at="2021-01-04T11:45:10Z" finished-at="2021-01-04T11:45:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToDemosite status=SUCCESS method=LoginTest.loginToDemosite(java.lang.String, java.lang.String)[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.demosite.testcases.LoginTest@4278a03f]" name="teardown" is-config="true" duration-ms="4846" started-at="2021-01-04T11:45:10Z" finished-at="2021-01-04T11:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demosite.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
